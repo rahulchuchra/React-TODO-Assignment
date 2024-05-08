@@ -1,0 +1,31 @@
+.custom-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px; /* Rounded edges */
+  background-color: #eae9e9; /* Light grey background */
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.custom-input:focus {
+  outline: none; /* Remove default focus style */
+  border-color: #007bff; /* Change border color on focus */
+  color: black;
+}
+
+.container {
+  background-color: white;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+}
